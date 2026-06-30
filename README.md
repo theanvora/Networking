@@ -42,7 +42,7 @@ await client.setHeader("Bearer \(token)", for: "Authorization")
 
 ## Requirements
 
-- iOS 16.0+ · Swift 5.9+
+- iOS 17.0+ · Swift 5.9+
 
 ## License
 
