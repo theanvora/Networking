@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Networking
+@testable import AnvyxNetworkKit
 
 final class NetworkingTests: XCTestCase {
     func testEndpointDefaults() {

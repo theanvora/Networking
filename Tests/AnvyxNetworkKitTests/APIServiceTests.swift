@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Networking
+@testable import AnvyxNetworkKit
 
 private struct FixedTransport: HTTPTransport {
     let body: Data

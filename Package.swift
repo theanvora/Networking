@@ -7,10 +7,10 @@ let package = Package(
         .iOS(.v16)
     ],
     products: [
-        .library(name: "Networking", targets: ["Networking"]),
+        .library(name: "AnvyxNetworkKit", targets: ["AnvyxNetworkKit"]),
     ],
     targets: [
-        .target(name: "Networking"),
-        .testTarget(name: "NetworkingTests", dependencies: ["Networking"]),
+        .target(name: "AnvyxNetworkKit"),
+        .testTarget(name: "AnvyxNetworkKitTests", dependencies: ["AnvyxNetworkKit"]),
     ]
 )

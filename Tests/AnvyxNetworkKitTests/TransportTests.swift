@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Networking
+@testable import AnvyxNetworkKit
 
 /// A stub transport — proves the client is testable without hitting the network.
 private struct StubTransport: HTTPTransport {

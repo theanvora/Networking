@@ -7,7 +7,7 @@
 
 import XCTest
 import UIKit
-@testable import Networking
+@testable import AnvyxNetworkKit
 
 final class ImageLoaderTests: XCTestCase {
 
